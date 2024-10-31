@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEKOLAH</title>
+    <title>SEKOLAH SD PONDOKCINA 1</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <style>
+        /* CSS untuk menyusun gambar sejajar */
+        .layanan-container {
+            display: flex;
+            justify-content: space-around; /* Membuat gambar terdistribusi merata */
+            flex-wrap: wrap; /* Memungkinkan gambar untuk melipat ke baris berikutnya pada layar kecil */
+            margin: 20px 0;
+        }
+
+        .layanan-item {
+            flex: 1 1 30%; /* Mengatur lebar item */
+            max-width: 300px; /* Membatasi lebar maksimum setiap item */
+            text-align: center; /* Menyusun teks di tengah */
+            margin: 10px; /* Jarak antar item */
+        }
+
+        .layanan-item img {
+            width: 100%; /* Membuat gambar responsif */
+            height: auto; /* Menjaga rasio aspek gambar */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -22,7 +42,7 @@
     </header>
     <main>
         <h2>Layanan</h2>
-        <p>Dengan berbagai layanan dan fasilitas untuk dapat mendukung dalam pendidikan siswa.</p>
+        <p>Dengan berbagai layanan dan fasilitas untuk mendukung pendidikan siswa.</p>
 
         <div class="layanan-container">
             <div class="layanan-item">
@@ -43,7 +63,7 @@
         </div>
     </main>
     <footer>
-        <p>&copy;SEKOLAH SD PONDOKCINA 1</p>
+        <p>&copy; 2024 SEKOLAH SD PONDOKCINA 1. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
